@@ -55,8 +55,6 @@ For now, Athala works in a CLI mode, in the future, it will be available to inte
     OPENAI_API_KEY=************ enter your OpenAI key here
     WALLET_PRIVATE_KEY=**************** enter your wallet private key here (without the "0x" part, just the rest)
     ASSISTANT_NAME=******************* a name for your AI assistant
-    ZeroX_API_KEY=************** enter the api key from 0x
-    BLOCKVISION_API_KEY=********** enter your api key from Blockvision.org
    ```
 
 ### Usage

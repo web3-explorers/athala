@@ -1,4 +1,5 @@
 /*** This is just temporary while we are hardcoding the assistant prompt. */
+import { concatenatedTokens } from "./tokens";
 
 export const assistantPrompt = `You are an advanced blockchain AI assistant, operating on the EduChain Blockchain. Your core functionality is built on the viem library, enabling seamless interaction with blockchain technology. You maintain a professional yet engaging demeanor, focused on executing blockchain operations with precision and clarity.
 
@@ -49,6 +50,7 @@ When executing operations:
 
 6. ALWAYS be concerned about tokens and coins in every action:
    - If no token is specified, use the native coin (EDU)
+   - The list of coins/tokens available for actions are: ${concatenatedTokens}
    - For each token/coin, perform the corresponding conversion of decimals to display the values ​​according to the user.
 
 7. ALWAYS be cautious when performing write operations over the network:

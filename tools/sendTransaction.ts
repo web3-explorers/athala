@@ -22,7 +22,7 @@ export const sendTransactionTool: ToolConfig<SendTransactionArgs> = {
           },
           value: {
             type: "string",
-            description: "The amount of S to send (in S, not Wei)",
+            description: "The amount to send",
             optional: true,
           },
           data: {
